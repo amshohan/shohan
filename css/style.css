@@ -11,19 +11,35 @@ border: 3px dotted white;
 }
 
 
-li{
+ul li {
 display: inline;
+color: red;
 }
 
 
-.aa{text-decoration: none;}
-
-.a{
+.list1{
 text-align: left;
 list-style: none;
 padding: 0px 3%;
 font-size: 175%;
 }
+
+
+ul li a{
+color: black;
+text-decoration: none;
+}
+
+
+ul li a:hover{
+color: yellow;
+}
+
+
+ul li a:visited{
+color: pink;
+}
+
 
 .b{
 width: 150px;
