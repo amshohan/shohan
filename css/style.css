@@ -12,6 +12,7 @@ border: 3px dotted white;
 
 
 ul li {
+
 display: inline;
 color: red;
 }
@@ -21,13 +22,19 @@ color: red;
 text-align: left;
 list-style: none;
 padding: 0px 3%;
-font-size: 175%;
+font-size: 125%;
 }
 
 
 ul li a{
-color: black;
+
+color: white;
 text-decoration: none;
+background-color: tomato;
+padding: 8px;
+border-radius:10px;
+border: 2px solid black;
+
 }
 
 
@@ -37,7 +44,7 @@ color: yellow;
 
 
 ul li a:visited{
-color: pink;
+color: black;
 }
 
 
