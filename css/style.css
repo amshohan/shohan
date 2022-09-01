@@ -1,6 +1,7 @@
 body{
 background-color: lightgreen;
 margin: 0px;
+min-width: 360px;
 }
 
 
