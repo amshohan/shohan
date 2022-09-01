@@ -3,7 +3,7 @@ body{background-color: lightgreen}
 
 header{
 background-color: green;
-margin: -7px -7px 0px -8px;
+margin: -8px;
 padding: 0px;
 border: 2px dotted white;
 }
@@ -12,7 +12,7 @@ border: 2px dotted white;
 li{
 text-decoration: none; 
 display: inline;
-/*border: 2px solid red;*/}
+border: 2px solid tomato;}
 
 
 ul{
