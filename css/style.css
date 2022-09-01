@@ -5,36 +5,36 @@ margin: 0px;
 
 
 header{
-background-color: green;
-border: 3px dotted white;
-
+background-color: palevioletred;
+border: 3px solid pink;
 }
 
 
-ul li {
+ul{
+display: inline-block;
+padding: 1% 1%;
+font-size: 100%;
+box-sizing: border-box;
+}
 
-display: inline;
+
+ul li {text-align: left top;
+width: 10%;
+min-width: 45px;
+display: inline-block;
+padding: 2px;
+margin: 2px;
 color: red;
-}
-
-
-.list1{
-text-align: left;
-list-style: none;
-padding: 0px 3%;
-font-size: 125%;
+border: 2px solid blue;
+background-color: lightblue;
+border-radius:10px;
+text-align: center;
 }
 
 
 ul li a{
-
-color: white;
+color: tomato;
 text-decoration: none;
-background-color: tomato;
-padding: 8px;
-border-radius:10px;
-border: 2px solid black;
-
 }
 
 
@@ -45,6 +45,25 @@ color: yellow;
 
 ul li a:visited{
 color: black;
+}
+
+
+header input[type=text]{
+width: 25%;
+height: 25px;
+float: right;
+display: inline-block;
+margin-top: 18px;
+}
+
+
+header input[type=submit]{
+width: 15%;
+height: 31px;
+float: right;
+margin-top: 18px;
+margin-right: 10px;
+display: inline-block;
 }
 
 
