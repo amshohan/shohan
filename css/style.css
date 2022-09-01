@@ -12,12 +12,11 @@ border: 3px dotted white;
 
 
 li{
-text-decoration: none; 
 display: inline;
-padding: 0px;
-margin: 0px;
 }
 
+
+.aa{text-decoration: none;}
 
 .a{
 text-align: left;
