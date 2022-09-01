@@ -1,11 +1,9 @@
 body{background-color: lightgreen}
 
 
-
-
 header{
 background-color: green;
-margin: -8px;
+margin: -7px -7px 0px -8px;
 padding: 0px;
 border: 2px dotted white;
 }
@@ -15,6 +13,8 @@ li{
 text-decoration: none; 
 display: inline;
 border: 2px solid red;}
+
+
 ul{
 text-align: center;
 list-style: none;
