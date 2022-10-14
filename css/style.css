@@ -7,6 +7,63 @@ margin: 0px;
 min-width: 350px;
 font-size: 100%;
 }
+.menubar{
+    overflow: hidden;
+    background-color: LightGray;
+    padding: 2% 0% 2% 1%;
+
+}
+.menubar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.icon{
+    width: 60%;
+    float: left;
+}
+
+.element{
+    width: 40%;
+    float: right;
+}
+.icon ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.icon li{
+        float: left;
+}
+
+.icon a{
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 3px;
+}
+.element::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type="submit"]{
+    width: 25%;
+    float: right;
+    height: 3vw;
+}
+
+input[type="text"]{
+    width: 75%;
+    height: 3vw;
+}
+
+.element{
+    
+}
 
 /*
 header{
