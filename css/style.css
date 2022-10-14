@@ -54,16 +54,21 @@ input[type="submit"]{
     width: 25%;
     float: right;
     height: 3vw;
+    font-size: 1.5vw;
 }
 
 input[type="text"]{
     width: 75%;
     height: 3vw;
+    font-size: 1.5vw;
 }
 
-.element{
+input[type="submit"], input[type="text"]{
     
+    float: right;
 }
+
+
 
 /*
 header{
