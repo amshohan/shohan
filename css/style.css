@@ -37,11 +37,12 @@ font-size: 100%;
     list-style: none;
     padding: 0px;
     margin: 0px;
-
+    
 }
 
 .icon li{
         float: left;
+        
 }
 
 .icon a{
@@ -52,6 +53,7 @@ font-size: 100%;
     border: 0.25vw solid black;
     border-radius: 0.6vw;
     font-size: 1vw;
+    overflow: auto;
 }
 
 .element::after{
